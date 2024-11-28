@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    padding: 30px;
+
+}
+#searchInputId{
+border-radius: 15px;
+padding: 5px;
+}
+.stylesButton{
+background-color: black;
+font-style: normal;
+font-size: 12px;
+border-color: white;
+color: white;
+border-radius: 5px;
+padding: 5.5px;
+
+}
+#divHeader{
+text-align: center;
+}
