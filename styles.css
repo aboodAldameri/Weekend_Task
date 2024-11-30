@@ -10,6 +10,7 @@ padding: 5px;
 .stylesButton{
 background-color: black;
 font-style: normal;
+<<<<<<< HEAD
 font-size: 12px;
 border-color: white;
 color: white;
@@ -20,3 +21,21 @@ padding: 5.5px;
 #divHeader{
 text-align: center;
 }
+=======
+font-size: 15px;
+border-color: white;
+color: white;
+border-radius: 5px;
+}
+#divHeader{
+max-width: 1000px;
+background-color: aqua;
+margin: 10px;
+}
+#photoLogo{
+width: 100px;
+height:75px ;
+border-radius: 500px;
+padding-left: 25px;
+}
+>>>>>>> c1b251c53d34454cbe18745774e7cbc3f99bb0ac
