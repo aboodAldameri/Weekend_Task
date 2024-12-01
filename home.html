@@ -3,63 +3,160 @@
 
 <head>
     <link rel="stylesheet" href="styles.css">
-<<<<<<< HEAD
 </head>
 
 <body>
     <header>
-        <div id="divHeader">
-            <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\e-shop.jpg"
-                alt="logo" width="50" height="50">
-            <input type="search" placeholder="⚲" id="searchInputId">
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Shop</a>
-=======
-  </head>
-<body>
-    <header>
-        <div id="divHeader"> 
-            <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\e-shop.jpg" alt="logo" id="photoLogo">
-            <input type="search" placeholder="⚲" id="searchInputId" > 
-            <a href="" >Home</a>
-            <a href="">About</a>
-             <a href="">Shop</a>
->>>>>>> c1b251c53d34454cbe18745774e7cbc3f99bb0ac
-            <a href="">Help</a>
-            <button class="stylesButton">Your Cart</button>
-        </div>
-        <div> <!-- add backgraund photo and button in center this photo -->
-
-<<<<<<< HEAD
-            <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\discribe.png"
-                alt="discribe e-shop" width="1000" height="300">
-        </div>
+        <nav>
+            <div id="divHeader">
+                <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\e-shop.jpg"
+                    alt="logo" id="photoLogo">
+                <input type="search" placeholder="⚲" id="searchInputId">
+                <a href="" target="_self">Home</a>
+                <a href="" target="_self">About</a>
+                <a href="" target="_self">Shop</a>
+                <a href="" target="_self">Help</a>
+                <button class="stylesButton">🛒 Your Cart</button>
+            </div>
+            <div>
+                <iframe width="1000" height="315"
+                    src="https://www.youtube.com/embed/6CiRM8_QQl8?si=DBW4FHjsTWLN5SC7&autoplay=1&mute=1&controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="iframe">
+                </iframe>
+            </div>
+        </nav>
     </header>
-    <hr style="border: 1px solid rgb(147, 147, 147); width: 80%; margin: 20px auto;">
+    <hr style="border: 1px solid rgb(190, 190, 190); width: 80%; margin: 20px auto;">
 
     <main>
-        <form>
-            <img src="" alt="product01">
-            <img src="" alt="product02">
-        </form>
+        <div class="product-container">
+            <div class="product">
+                <h4>Shampoo</h4>
+                <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo.jpg"
+                    alt="product01" class="photoProduct">
+                <p>shampoo OGX 330 ml </p>
+                <button class="btnShoppingCart">🛒</button>
+            </div>
+            <div class="product">
+                <h4>Shampoo</h4>
+                <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo02.jpg"
+                    alt="product02" class="photoProduct">
+                <p>shampoo Sunsilk 400 ml </p>
+                <button class="btnShoppingCart">🛒</button>
+            </div>
+            <div class="product">
+                <h4>Shawer Gel</h4>
+                <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shawer gel01.jpg"
+                    alt="product03" class="photoProduct">
+                <p>shawer gel dove 500 ml</p>
+                <button class="btnShoppingCart">🛒</button>
+            </div>
+            <div class="product">
+                <h4>Tooth Brush</h4>
+                <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\brushes.jpg"
+                    alt="product04" class="photoProduct">
+                <p>tooth brush colgate </p>
+                <button class="btnShoppingCart">🛒</button>
+
+            </div>
+        </div>
+        <hr style="border: 1px solid rgb(147, 147, 147); width: 80%; margin: 20px auto;">
+        <div id="newsletter">
+            <div>
+                <h3>Newslatter :</h3>
+                <p>
+                <blockquote>
+                    Join our e-shop newsletter and never miss out on the latest deals,<br> product launches, and
+                    exclusive offers!
+                </blockquote>
+
+                </p>
+            </div>
+            <div style="margin-top: 30px;">
+                <input type="text" style="border-radius: 5px ; padding: 5.5px; " placeholder="Enter">
+                <button class="stylesButton">Subscribe </button>
+            </div>
+        </div>
+        <hr style="border: 1px solid rgb(147, 147, 147); width: 80%; margin: 20px auto;">
+        <h3 style="font-family: cursive;">Offer List</h3>
+        <div  id="offerList" name="main div">
+            <div name="pic01" id="pic01">
+                <h4>Tooth Brush</h4>
+                <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\brushes.jpg"
+                    alt="product04" id="photoProduct03">
+                    <p>shampoo Sunsilk 400 ml </p>
+                    <button class="btnShoppingCart">🛒</button>
+            </div>
+            <div name="for 6 pic">
+                <div style="display: flex; flex-wrap: wrap; justify-content: flex-end;" name="for 3 pic">
+                    <div class="product02">
+                        <h4>Shampoo</h4>
+                        <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo02.jpg"
+                        alt="product02" class="photoProduct02">
+                        <p>shampoo Sunsilk 400 ml </p>
+                        <button class="btnShoppingCart">🛒</button>
+                    </div>
+                    <div class="product02">
+                        <h4>Shampoo</h4>
+                        <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo02.jpg"
+                        alt="product02" class="photoProduct02">
+                        <p>shampoo Sunsilk 400 ml </p>
+                        <button class="btnShoppingCart">🛒</button>
+                    </div>
+                    <div class="product02">
+                        <h4>Shampoo</h4>
+                        <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo02.jpg"
+                        alt="product02" class="photoProduct02">
+                        <p>shampoo Sunsilk 400 ml </p>
+                        <button class="btnShoppingCart">🛒</button>
+                    </div>
+                </div>
+                <div style="display: flex; flex-wrap: wrap; justify-content: flex-end;" name="for 3 pic">
+                    <div class="product02">
+                        <h4>Shampoo</h4>
+                        <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo02.jpg"
+                        alt="product02" class="photoProduct02">
+                        <p>shampoo Sunsilk 400 ml </p>
+                        <button class="btnShoppingCart">🛒</button>
+                    </div>
+                    <div class="product02">
+                        <h4>Shampoo</h4>
+                        <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo02.jpg"
+                        alt="product02" class="photoProduct02">
+                        <p>shampoo Sunsilk 400 ml </p>
+                        <button class="btnShoppingCart">🛒</button>
+                    </div>
+                    <div class="product02">
+                        <h4>Shampoo</h4>
+                        <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\shampoo02.jpg"
+                        alt="product02" class="photoProduct02">
+                        <p>shampoo Sunsilk 400 ml </p>
+                        <button class="btnShoppingCart">🛒</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+       
     </main>
     <hr style="border: 1px solid rgb(147, 147, 147); width: 80%; margin: 20px auto;">
 
     <footer>
-
+        <p> Connect with us on social media via </p>
     </footer>
-=======
-            <img src="E:\The books\Tahaluf\training\Web page design\Tasks\Weekend\Weekend_Task\photo\discribe.png" alt="discribe e-shop" >
-        </div>
-    </header>
-<main>
-
-</main>
-<footer>
-
-</footer>
->>>>>>> c1b251c53d34454cbe18745774e7cbc3f99bb0ac
 </body>
 
 </html>
