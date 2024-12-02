@@ -2,6 +2,9 @@ a {
   text-decoration: none;
   padding: 30px;
 }
+a:active{
+  color: rgb(30, 183, 210);
+}
 #searchInputId {
   border-radius: 15px;
   padding: 5px;
@@ -69,19 +72,17 @@ body {
     margin-left: 100px;
   }
   #newsletter{
-text-align: left;
-display: flex; 
-justify-content:center;  
-gap: 300px;  
+    text-align: left;
+    display: flex; 
+    justify-content:center;  
+    gap: 300px;  
   }
   #offerList{
     text-align: left;
     display: flex; 
     justify-content:center;
     gap: 50px;
- 
-
-  }
+   }
   .product02{
     border: 2px solid rgb(162, 155, 155);
     border-radius: 10px;
@@ -106,5 +107,4 @@ gap: 300px;
   #photoProduct03{
     width: 300px;
     height: 250px ;
-
   }
